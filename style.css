@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #007b8f;
+  margin-top: 40px;
+}
+
+.team-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 40px 20px;
+  gap: 30px;
+}
+
+.team-member {
+  background: #fff;
+  border: 2px solid #00aabb;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.team-member img {
+  width: 100%;
+  border-radius: 5px;
+  transition: transform 0.2s ease;
+}
+
+.team-member img:hover {
+  transform: scale(1.05);
+}
+
+.team-member h2 {
+  margin: 15px 0 10px;
+  color: #333;
+}
+
+.team-member p {
+  font-size: 14px;
+  color: #444;
+}

@@ -3,26 +3,88 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Oghosa Abu's Personal Site" />
+  <meta name="description" content="Oghosa Abu's Profile Page" />
   <meta name="author" content="Oghosa Abu" />
-  <title>Oghosa Abu - Resume</title>
+  <title>Oghosa Abu - Profile</title>
 
-  <!-- ✅ 100% Working Font Awesome Solid + Brands (no integrity, no kit) -->
+  <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-  <!-- Your Custom CSS -->
-  <link href="styles.css" rel="stylesheet" />
+  <!-- Internal Theme Styling -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 40px 20px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      color: #007b8f;
+      margin-top: 0;
+    }
+
+    h2 {
+      color: #005f73;
+      margin-top: 30px;
+    }
+
+    p, li {
+      line-height: 1.7;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .profile-pic {
+      width: 150px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    .social-icons {
+      margin-top: 20px;
+    }
+
+    .social-icons a {
+      margin-right: 15px;
+      text-decoration: none;
+      font-size: 1.5em;
+      color: #007b8f;
+      transition: transform 0.2s ease;
+    }
+
+    .social-icons a:hover {
+      transform: scale(1.2);
+      color: #005f73;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-top: 30px;
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
 </head>
 
-
 <body>
-  <nav>
-    <img src="image/oghosa.jpeg" alt="Oghosa Abu" width="140" />
+  <div class="container">
+    <img src="../images/oghosa.jpeg" alt="Oghosa Abu" class="profile-pic" />
     <h1>Oghosa Osazemen Abu</h1>
-    <p>MSc in Advanced & Computational Mathematics</p>
-  </nav>
+    <p><strong>MSc in Advanced & Computational Mathematics</strong></p>
 
-  <section>
     <h2>About Me</h2>
     <p>
       I am a researcher and developer exploring AI and computational mathematics.
@@ -37,9 +99,7 @@
       Beyond code and models, I love writing, engaging in political debates, and having thoughtful conversations about money,
       development, and the forces that shape failing economies.
     </p>
-  </section>
 
-  <section>
     <h2>Experience</h2>
     <ul>
       <li><strong>Machine Learning Assistant</strong> – TU Chemnitz (2023–Present)</li>
@@ -47,23 +107,14 @@
       <li><strong>Graduate Assistant</strong> – Benson Idahosa University</li>
       <li><strong>Graduate Trainee</strong> – Taraba State University</li>
     </ul>
-  </section>
 
-  <section>
     <h2>Skills</h2>
     <ul>
       <li>Python, SQL, Data Science, AI Optimization, Scientific Writing</li>
     </ul>
-  </section>
 
-<footer>
     <div class="social-icons">
-      <a href="mailto:abuoghosa@gmail.com"><i class="fas fa-envelope"></i></a>
-      <a href="https://github.com/abuoghosa" target="_blank"><i class="fab fa-github"></i></a>
-      <a href="https://linkedin.com/in/oghosa-osazemen-abu-81ab29141/" target="_blank"><i class="fab fa-linkedin"></i></a>
-      <a href="https://medium.com/@abuoghosa" target="_blank"><i class="fab fa-medium"></i></a>
-    </div>
-  </footer>
-  
-</body>
-</html>
+      <a href="mailto:abuoghosa@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+      <a href="https://github.com/abuoghosa" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+      <a href="https://linkedin.com/in/oghosa-osazemen-abu-81ab29141/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="htt

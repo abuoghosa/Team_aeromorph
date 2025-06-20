@@ -1,56 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Clinton Ikechukwu - Profile</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Clinton Ikechukwu - Team Aeromorph" />
+
+  <!-- Font Awesome for LinkedIn icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
   <style>
     body {
       font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
       margin: 0;
       padding: 40px 20px;
-      background-color: #f9f9f9;
       color: #333;
     }
+
     .container {
       max-width: 800px;
-      margin: 0 auto;
+      margin: auto;
       background: white;
       padding: 30px;
       border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
-    h1 {
-      color: #007b8f;
-      margin-bottom: 10px;
-    }
-    p {
-      line-height: 1.7;
+
+    img.profile-pic {
+      width: 150px;
+      border-radius: 8px;
       margin-bottom: 20px;
     }
-    ul {
-      line-height: 1.6;
-    }
-    a {
+
+    h1 {
       color: #007b8f;
+      margin-top: 0;
+    }
+
+    h2 {
+      color: #005f73;
+      margin-top: 30px;
+    }
+
+    ul {
+      line-height: 1.7;
+      padding-left: 20px;
+    }
+
+    p {
+      line-height: 1.7;
+    }
+
+    .social-icons {
+      margin-top: 20px;
+    }
+
+    .social-icons a {
+      margin-right: 15px;
       text-decoration: none;
+      font-size: 1.5rem;
+      color: #0077b5;
+      transition: transform 0.2s ease;
     }
-    a:hover {
-      text-decoration: underline;
+
+    .social-icons a:hover {
+      transform: scale(1.1);
     }
+
     .back-link {
       display: inline-block;
       margin-top: 30px;
-      color: #555;
       font-size: 14px;
+      color: #555;
     }
   </style>
 </head>
-<body>
 
+<body>
   <div class="container">
+    <img src="../images/clinton.jpg" alt="Clinton Ikechukwu" class="profile-pic" />
     <h1>Clinton Ikechukwu</h1>
-    <h3>About Me</h3>
+    <p><strong>Systems Engineering Lead – Team Aeromorph</strong></p>
+
+    <h2>About Me</h2>
     <p>
       I am a Master’s researcher passionate about the future of smart manufacturing and Industry 4.0 at the intersection of AI, digital engineering, and the Internet of Things. My current work, as part of the Erasmus Mundus Meta 4.0 program, explores intelligent manufacturing pipelines using machine vision, feature recognition, and data-driven automation strategies at ARC Solutions GmbH.
     </p>
@@ -66,7 +99,8 @@
     <p>
       My interests extend beyond engineering into storytelling and communication. I explore the human side of technology through narrative writing, using storytelling to spark curiosity and conversation around innovation, identity, and impact.
     </p>
-    <h4>Research and Leadership Interests:</h4>
+
+    <h2>Research and Leadership Interests</h2>
     <ul>
       <li>AI & Machine Learning for Engineering Systems</li>
       <li>Smart Manufacturing & Industry 4.0</li>
@@ -75,12 +109,13 @@
       <li>Innovation Leadership & Science Communication</li>
     </ul>
 
-    <p>
-      🔗 <a href="https://www.linkedin.com/in/clintonikechukwu" target="_blank">Clinton Ikechukwu | LinkedIn</a>
-    </p>
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/clintonikechukwu" target="_blank" title="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </div>
 
     <a href="../index.html" class="back-link">← Back to Team</a>
   </div>
-
 </body>
 </html>

@@ -1,58 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Meet Team Aeromorph</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="Team Aeromorph Profile Page" />
+
+  <!-- Font Awesome for icons (optional) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Internal Styling -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 20px;
+      background: #007b8f;
+      color: white;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    .team-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 40px 20px;
+      gap: 30px;
+    }
+
+    .team-member {
+      background: white;
+      border: 2px solid #00aabb;
+      border-radius: 10px;
+      padding: 20px;
+      width: 300px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+      transition: transform 0.3s;
+      text-align: center;
+    }
+
+    .team-member:hover {
+      transform: translateY(-5px);
+    }
+
+    .team-member img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    .team-member h2 {
+      margin: 10px 0 5px;
+      color: #007b8f;
+    }
+
+    .team-member p {
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .team-member a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #777;
+    }
+
+    @media screen and (max-width: 768px) {
+      .team-member {
+        width: 90%;
+      }
+    }
+  </style>
 </head>
+
 <body>
 
-  <h1>MEET TEAM AEROMORPH</h1>
+  <header>
+    <h1>Meet Team Aeromorph</h1>
+  </header>
+
   <div class="team-container">
 
     <!-- Clinton -->
     <div class="team-member">
-      <a href="profiles/clinton.html">
+      <a href="profile/clinton.html">
         <img src="images/clinton.jpg" alt="Clinton Ikechukwu">
+        <h2>Clinton Ikechukwu</h2>
+        <p><strong>Systems Engineering Lead</strong></p>
+        <p>
+          MSc Advanced Manufacturing (TUC, Germany)<br>
+          MSc Materials Science for Industry 4.0 (Italy)<br>
+          MSc Mechanical Engineering (ENISE, France)
+        </p>
       </a>
-      <h2>Clinton Ikechukwu</h2>
-      <p><strong>Role:</strong> Systems Engineering Lead</p>
-      <p>
-        MSc Advanced Manufacturing, TUC, Germany<br>
-        MSc Materials Science for Industry 4.0, Polytechnic, Italy<br>
-        MSc Mechanical Engineering, ENISE, France
-      </p>
     </div>
 
     <!-- Oghosa -->
     <div class="team-member">
-      <a href="profiles/oghosa.html">
+      <a href="profile/oghosa.html">
         <img src="images/oghosa.jpeg" alt="Oghosa Abu">
+        <h2>Oghosa Osazemen Abu</h2>
+        <p><strong>AI & Explainability Architect</strong></p>
+        <p>
+          MSc Computational Mathematics (TUC, Germany)<br>
+          BSc in Pure and Applied Mathematics
+        </p>
       </a>
-      <h2>Oghosa Abu</h2>
-      <p><strong>Role:</strong> AI & Explainability Architect</p>
-      <p>
-        MSc Advanced Computational Mathematics (Data Science), TUC, Germany<br>
-        BSc in Pure and Applied Mathematics
-      </p>
     </div>
 
     <!-- Junaid -->
     <div class="team-member">
-      <a href="profiles/junaid.html">
+      <a href="profile/junaid.html">
         <img src="images/junaid.jpg" alt="Junaid Ali Muhammad">
+        <h2>Junaid Ali Muhammad</h2>
+        <p><strong>Intelligent System Impact Analyst</strong></p>
+        <p>
+          MSc Advanced Manufacturing (TUC, Germany)<br>
+          MSc Mechanical Engineering (ENISE, France)<br>
+          MSc Materials for Industry 4.0 (Italy)
+        </p>
       </a>
-      <h2>Junaid Ali Muhammad</h2>
-      <p><strong>Role:</strong> Intelligent System Impact Analyst</p>
-      <p>
-        MSc Advanced Manufacturing, TUC, Germany<br>
-        MSc Mechanical Engineering, ENISE, France<br>
-        MSc Material Science for Industry 4.0, Polytechnic, Italy
-      </p>
     </div>
 
   </div>
+
+  <footer>
+    &copy; 2025 Team Aeromorph. All rights reserved.
+  </footer>
 
 </body>
 </html>
